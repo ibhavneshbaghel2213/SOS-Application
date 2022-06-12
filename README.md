@@ -18,9 +18,9 @@
 
 **APIs : google-places, vonage, etc**
 
-**Database : SQLite
+**Database : SQLite**
 
-**Algorithm : YOLOv5 model and custom deep learning model
+**Algorithm : YOLOv5 model and custom deep learning model**
 
 ## How to run
 **1. install requirements.txt by entering $ pip install -r requirements.txt on terminal.**
