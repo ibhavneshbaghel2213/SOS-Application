@@ -27,5 +27,5 @@
 
 **2. Now run manage.py file by entering python manage.py runserver.**
 
-**3. It automatically run application on localhost.
+**3. It automatically run application on localhost.**
 
