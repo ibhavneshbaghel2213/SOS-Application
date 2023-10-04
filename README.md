@@ -1,31 +1,46 @@
 # SOS-Application
-**CCTV Camera that can detect accident on roads where cars or other types of vehicle crashed and automate the process of sending ambulance to that place where accident happened.**
+
+SOS-Application is a project aimed at improving the response time for ambulance services in the event of road accidents. This CCTV Camera-based system is designed to automatically detect accidents on roads and promptly send the location information to nearby hospitals, streamlining the process of dispatching ambulances to accident sites.
 
 ## Problem Statement
-**now a days we have seen that in many road accident people died because of late ambulance services.So we proposed our idea to automate this process of ambulance getting on that location!**
+
+In today's world, one of the common causes of fatalities in road accidents is the delayed arrival of ambulance services. To address this critical issue, the SOS-Application project proposes an innovative solution to automate the process of dispatching ambulances to accident locations swiftly.
 
 ## How it Works
-**1. It can help to save people  life from road Accident.**
 
-**2. If any accident occur it will automatically detect the accident and it will send google map Location of accident place to nearby hospitals.**
+1. **Saving Lives**: SOS-Application plays a crucial role in saving lives by reducing the response time in the event of road accidents.
 
-**3. Hospital will accept the request and send the Ambulance to that Location.**
+2. **Accident Detection**: The system automatically detects road accidents through CCTV cameras and captures critical information.
+
+3. **Location Sharing**: Once an accident is detected, the system immediately sends the accident location, including latitude and longitude, to nearby hospitals.
+
+4. **Ambulance Dispatch**: Hospitals equipped with this system will accept the request and promptly dispatch ambulances to the accident location.
 
 ## Technologies
-**Languages : Python, HTML5, JavaScript**
 
-**Framework : Django**
+The SOS-Application project utilizes a variety of technologies to achieve its objectives:
 
-**APIs : google-places, vonage, etc**
+- **Languages**: Python, HTML5, JavaScript
+- **Framework**: Django
+- **APIs**: Google Places API, Vonage API, etc.
+- **Database**: SQLite
+- **Algorithm**: YOLOv5 model and custom deep learning models for accident detection.
 
-**Database : SQLite**
+## How to Run
 
-**Algorithm : YOLOv5 model and custom deep learning model**
+To run the SOS-Application on your local machine, follow these steps:
 
-## How to run
-**1. install requirements.txt by entering $ pip install -r requirements.txt on terminal.**
+1. Install the required dependencies listed in `requirements.txt` by running the following command in your terminal:
 
-**2. Now run manage.py file by entering python manage.py runserver.**
+   ```
+   $ pip install -r requirements.txt
+   ```
 
-**3. It automatically run application on localhost.**
+2. Run the `manage.py` file with the following command:
+
+   ```
+   $ python manage.py runserver
+   ```
+
+3. The application will be automatically launched on your localhost, and you can access it through your web browser.
 
