@@ -46,3 +46,4 @@ To run the SOS-Application on your local machine, follow these steps:
 
 ================================================
 ===================
+-------------------
