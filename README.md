@@ -45,3 +45,4 @@ To run the SOS-Application on your local machine, follow these steps:
 3. The application will be automatically launched on your localhost, and you can access it through your web browser.
 
 ================================================
+===================
